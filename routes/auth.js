@@ -25,7 +25,7 @@ router.post("/signup", async (req, res) => {
     res.status(201).redirect("/login");
   } catch (err) {
     //TODO - Shows error to user
-    res.status(404).send({message: "This email is already registered!!"});
+    res.status(404).send({message: "Internal Server Error"});
   }
 });
 
