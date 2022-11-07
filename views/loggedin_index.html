@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--====== Title ======-->
+    <title>authenticated</title>
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="../static/css/starter.css" />
+    <link rel="stylesheet" href="../static/css/navbar-02.css" />
+  </head>
+
+  <body>
+    <!--====== NAVBAR TWO PART START ======-->
+    <section class="navbar-area navbar-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="">
+                <img src="../static/images/logo.png" alt="Logo" width="80px" />
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTwo"
+                aria-controls="navbarTwo"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item">
+                    <button class="btn" id="home_btn" onclick="hideAll()">
+                      Home
+                    </button>
+                  </li>
+
+                  <li class="nav-item">
+                    <button class="btn" id="about_btn" onclick="showAbout()">
+                      About Project
+                    </button>
+                  </li>
+                  <button class="btn" id="team_btn" onclick=" showTeam()">
+                    <li class="nav-item">Team</li>
+                  </button>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <ul>
+                  <li>
+                    <a class="btn primary-btn square" href="/logout">
+                      Log Out
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div>
+        <!-- Team Section -->
+        <h2 class="text-center mt-2">You are authenticated</h2>
+        <div id="team">
+          <h2 class="mt-4 text-center">OUR TEAM</h2>
+          <section
+            class="container d-flex flex-row justify-content-center align-items-center flex-wrap mt-2"
+          >
+          <div class="card m-2" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../static/images/vipulchaudhary.png"
+              alt="Card image cap"
+              style="height: 20rem"
+
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Vipul Chaudhary</h5>
+            </div>
+            <div class="card-body text-center">
+              <a
+                target="_blank"
+                href="https://github.com/vipulchaudhary16"
+                class="card-link"
+                >GITHUB</a
+              >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/vipulchaudhary16/"
+                class="card-link"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="card m-2" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../static/images/rushi.png"
+              alt="Card image cap"
+              style="height: 20rem"
+
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Rushi Thakkar</h5>
+            </div>
+            <div class="card-body text-center">
+              <a
+                target="_blank"
+                href="https://github.com/Ruc08"
+                class="card-link"
+                >GITHUB</a
+              >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/rushi-thakkar-43a21a1b3/"
+                class="card-link"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="card m-2" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="../static/images/kaushal1.jpg"
+              alt="Card image cap"
+              style="height: 20rem"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Kaushal Soni</h5>
+            </div>
+            <div class="card-body text-center">
+              <a
+                target="_blank"
+                href="https://github.com/Ruc08"
+                class="card-link"
+                >GITHUB</a
+              >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/rushi-thakkar-43a21a1b3/"
+                class="card-link"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="card m-2" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../static/images/dharam.jpg"
+              alt="Card image cap"
+              style="height: 20rem"
+
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Dharm Patel</h5>
+            </div>
+            <div class="card-body text-center">
+              <a
+                target="_blank"
+                href="https://github.com/Ruc08"
+                class="card-link"
+                >GITHUB</a
+              >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/rushi-thakkar-43a21a1b3/"
+                class="card-link"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+          </section>
+        </div>
+
+        <!-- About Section -->
+        <section id="about">
+          <h2 class="mt-4 text-center">ABOUT PROJECT</h2>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      //===== close navbar-collapse when a  clicked
+      let navbarTogglerTwo = document.querySelector(
+        ".navbar-two .navbar-toggler"
+      );
+      navbarTogglerTwo.addEventListener("click", function () {
+        navbarTogglerTwo.classList.toggle("active");
+      });
+    </script>
+
+    <script src="../static/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2d82762e22.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
